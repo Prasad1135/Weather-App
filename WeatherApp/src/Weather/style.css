@@ -1,0 +1,44 @@
+body{
+    height: 640px;
+    width: 100%;
+    background: url('https://thumbs.dreamstime.com/b/palms-tropical-beach-white-sand-summer-vacation-travel-holiday-background-concept-caribbean-paradise-beach-palms-136606345.jpg');  
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+}
+input{
+    margin-top: 20px;
+    height: 30px;
+    width: 10%; 
+    text-align: center;
+    border: none;
+    text-align: center;
+    border-radius: 10px;
+    background-color:rgb(240, 192, 103);
+}
+button{
+    margin-left: 10px;
+    height: 30px;
+    width: 8%;
+    border: none;
+    font-weight: 600;
+    color: red;
+    background-color: rgb(90, 233, 90);
+    border-radius: 10px;
+}
+button:hover{
+    background-color: rgb(247, 247, 108);
+}
+input:hover{
+    background-color: greenyellow;
+}
+.cards{
+    margin:auto;
+    height: 300px;
+    width: 400px;
+   border-radius: 20px;
+    align-items: center;
+    border-radius: 20px;
+    background-color:rgba(255, 255, 255, 0.151);
+    backdrop-filter: blur(10px);  
+}
